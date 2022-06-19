@@ -1,0 +1,188 @@
+head:
+  title: "Portfolio d'Alexia Fontaine"
+
+# showcase
+showcase:
+  enable: true
+  title: "Bonjour, je suis Alexia Fontaine."
+  subtitle: "Conceptrice pédagogique"
+  description: "J’espère participer, de manière constructive, aux questions complexes par ces nouvelles formes d’écriture."
+  image:
+    x: "img/showcase/data-science-animation.gif"
+    _2x: "img/showcase/data-science-animation.gif"
+  imageMobile:
+    x: "img/showcase/data-science-animation.gif"
+    _2x: "img/showcase/data-science-animation.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Alexia"
+    URL: "mailto:fontaine.alexia8@gmail.com"
+
+
+
+# about
+about:
+  enable: true
+  title: "Présentation"
+  content: 
+    <p class="lead">
+    <strong>J'ai toujours aimé les histoires.</strong> Je suis même devenue archéologue pour cette raison ! 
+    </p>
+    <p class="lead">
+    <strong>Mon intérêt principal</strong> porte aujourd'hui sur l'analyse, la valorisation des données ou la médiatisation de contenus. 
+    </p>
+    <p class="lead">
+    Cela consiste à accompagner les équipes dans leurs pratiques numériques, 
+    à créer ces scénarios pour partager des connaissances, 
+    amener un point de vue différent (...enfin je l'espère!), 
+    répondre à une question voire aider à la décision.
+    </p>
+ 
+  image:
+    x: "img/who-am-i/bibi.jpeg"
+    _2x: "img/who-am-i/bibi.jpeg"
+
+# experience
+experience:
+  enable: true
+  title: "Compétences"
+  description: "Curieuse et impliquée, j'aime (me) poser des questions et trouver des moyens d'y répondre. Le point commun à tous mes projets? Construire de la compréhension. "
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Télécharger mon CV"
+    URL: "mailto:fontaine.alexia8@gmail.com"
+
+  items:
+    - title: "Administration & Gestion des services numériques "
+      company: "LMS-CMS"
+
+    - title: "Création et mise à jour de bases de données"
+      company: "SIG-SQL"
+    
+    - title: "Diffusion et analyse d'enquête"
+      company: "R"
+      
+    - title: "Médiatisation & Intégration de contenus"
+      company: "LMS-CMS"
+      
+      
+      
+# education
+education:
+  enable: true
+  title: "Formation"
+  items:
+    - university: "Université Montpellier 3"
+      year: "2018"
+      degree: "Master HUMANITES NUMERIQUES - SCIENCE DU LANGAGE"
+
+
+    - university: "Université de Tours "
+      year: "2008"
+      degree: "Master ARCHEOMATIQUE - SCIENCES HISTORIQUES"
+      
+    - university: "Université Paris 1"
+      year: "2006"
+      degree: "Master SCIENCES POUR L'ARCHEOLOGIE"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  
+  works:
+    - title: "METHODOLOGIE : Procédure de désinfection des dispositifs médicaux"
+      description: "La multiplication des contenus implique un accompagnement dans l’appropriation d’une ressource numérique: tel est l’objectif de cette application qui vise à remobiliser des connaissances sur une situation professionnelle."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Lancer Application"
+        URL: "https://slowsia.shinyapps.io/prototype-scenario-embranchement/"
+      image:
+        x: "img/works/app01.png"
+        _2x: "img/works/app01.png"
+      is_even: true
+      
+    - title: "METHODOLOGIE : Indice de conservation de vestiges archéologiques par imagerie LIDAR (projet “Lidar-Haye”)"
+      description: "Modélisation géométrique pour automatiser une opération locale : l’exemple des parcellaires fossiles en forêt de Haye. Les données sont issues du projet « LIDAR-Haye » (responsable scientifique M.Georges-Leroy)"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Lire Article"
+        URL: "https://archnum.hypotheses.org/175"
+      image:
+        x: "img/works/1ere-couv_1.jpg"
+        _2x: "img/works/1ere-couv_1.jpg"
+      is_even: true
+      
+    - title: "METHODOLOGIE : Analyse morphologique et visualisation morphométrique de lames en pierre(projet “TOKI”)"
+      description: "Présentation de données d'inventaire de mon master Recherche"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Lancer Application"
+        URL: "https://slowsia.shinyapps.io/AppTokiAnalyseMorphoV3/?_ga=2.29352380.1042832013.1655563190-992227036.1623421899"
+      image:
+        x: "img/works/app04.png"
+        _2x: "img/works/app04.png"
+      is_even: true
+
+    - title: "CARTE INTERACTIVE : Répartition spatiale des grottes préhistoriques en France"
+      description: "Répartition spatiale des représentations préhistoriques en France, un état de la recherche sur le concept d'emprise territoriale."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Lire Article"
+        URL: "https://archnum.hypotheses.org/579"
+      image:
+        x: "img/works/app02.png"
+        _2x: "img/works/app02.png"
+      is_even: true
+
+    - title: "CARTE INTERACTIVE : Naissance des transports en commun à Toulouse (1863-1957)"
+      description: "Une observation cartographique sur l'extension de ce réseau selon les évolutions techniques. Un jeu de données OPEN-DATA.Toulouse Métropole"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Lancer Application"
+        URL: "https://slowsia.shinyapps.io/tramTls/"
+      image:
+        x: "img/works/app03.png"
+        _2x: "img/works/app03.png"
+      is_even: true
+      
+    - title: "CARTE INTERACTIVE : COVID19-France le 06/04/2020  "
+      description: "Un état de la situation sanitaire par région à une date donnée. Ma manière de participer à une situation qui nous a tous dépassés. Le jeu de données provenait de DATA.GOUV.fr et SANTE PUBLIQUE"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Lancer Application"
+        URL: "https://slowsia.shinyapps.io/COVID19France/?"
+      image:
+        x: "img/works/app05.png"
+        _2x: "img/works/app05.png"
+      is_even: true
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact Alexia"
+    
+  image:
+    x: "img/who-am-i/bibi2.jpg"
+    _2x: "img/who-am-i/bibi2.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Message"
+    btnAction: 'mailto:fontaine.alexia8@gmail.com'
+    
+  phone:
+    title: "Téléphone"
+    number: "--"
+  email:
+    title: "Email"
+    email: '<a href="mailto:fontaine.alexia8@gmail.com">fontaine.alexia8@gmail.com</a>'
+  address:
+    title: "Adresse"
+    address: "--"
+

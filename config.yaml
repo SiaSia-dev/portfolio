@@ -1,0 +1,52 @@
+baseURL: /
+languageCode: en-us
+theme: raditian-free-hugo-theme-data-science
+params:
+  footer:
+    copyright: © 2022 Alexia Fontaine. Made with raditian-free-hugo-theme-data-science
+    site_logo:
+      _2x: img/general/logo-bibi.png
+      alt: Design & Code - Business Science
+      x: img/general/logo-bibi.png
+  googleAnalyticsID: ''
+  logo:
+    text1: Alexia
+    text2: Fontaine
+  plugins:
+    css:
+      - URL: css/main.css
+      - URL: css/rad-icons.css
+      - URL: css/custom.css
+    js:
+      - URL: js/rad-animations.js
+      - URL: js/sticky-header.js
+      - URL: js/library/fontfaceobserver.js
+  sections:
+    - showcase
+    - about
+    - client-and-work
+    - experience
+    - education
+    - contact
+    - newsletter
+menu:
+  footer:
+    - URL: '#about'
+      name: A propos
+      weight: 2
+    - URL: '#portfolio'
+      name: Portfolio
+      weight: 3
+    - URL: '#contact'
+      name: Contact
+      weight: 4
+  header:
+    - URL: '#about'
+      name: A propos
+      weight: 2
+    - URL: '#portfolio'
+      name: Portfolio
+      weight: 3
+    - URL: '#contact'
+      name: Contact
+      weight: 4
